@@ -7,7 +7,7 @@ The Nevada Independent analyzed the effects of redistricting using two datasets 
 
 Clark County's voter registration file shows all registered voters in Clark County, including a voter's name, registration number, party affiliation, assigned congressional and legislative districts and address. The voting file from the 2024 election shows all residents whose votes were counted, including their name, registration number and voting method.
 
-To start, The Indy combined these two datasets into a single database by joining both files by registration number. This allowed us to remove anyone who did not vote, while also keeping a voter's address and personal information in a single file.
+To start, The Indy combined these two datasets into a single database by joining the files by registration number. This allowed us to remove anyone who did not vote, while also keeping a voter's address and personal information in a single file.
 
 The Indy's analysis then had two main aspects: determining a district's partisan lean under the current district boundaries and what a district's partisan lean would have been under the former district boundaries. The analysis of the former was simple: because the voter registration file includes a voter's party and assigned legislative and congressional districts, we were able to determine what percent of voters in each district was a registered Democrat, Republican or nonpartisan.
 
